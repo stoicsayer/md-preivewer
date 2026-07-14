@@ -65,6 +65,7 @@ Berikut urutan lengkap interaksi antara **Merchant**, **DANA**, dan **Bank**:
 13. **Kondisional** — jika `needNotify == true`, DANA mengirim status *"Request in Progress"* ke merchant.
 
 **Fase C — Transfer Notify**
+
 14. Bank mengirim hasil status transfer final ke DANA.
 15. DANA memanggil **Transfer to Bank Notify API** ke endpoint webhook merchant untuk memberi tahu hasil transfer.
 
