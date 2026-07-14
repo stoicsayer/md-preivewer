@@ -51,6 +51,7 @@ Berikut urutan lengkap interaksi antara **Merchant**, **DANA**, dan **Bank**:
 2. DANA mengembalikan informasi saldo merchant.
 
 **Fase B — Transfer to Bank**
+
 3. Merchant menerima permintaan transfer dari user (internal).
 4. Merchant memanggil API **Transfer to Bank Account Inquiry**.
 5. DANA meneruskan query informasi rekening ke Bank.
